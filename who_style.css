@@ -1,5 +1,4 @@
 ﻿@charset "utf-8";
-
 /*
       OC CIS 155 Web Development I
       Build on Concepts Project #2(indicate which project this is for)
@@ -19,26 +18,23 @@
 /* Background image created by Sandra Sibert from public domian photos */
 
 body, header, nav, article, section, h1, h2, footer {
-   display: block;
+    display: block;
 }
-
 html {
-	background-image: url(fem_background_sm.jpg); /*Using the tiling default, I don't need the "repeat" value*/
-	height: 100%;
-	font-family: Arial, Helvetica, sans-serif;
-	color: rgb(0, 0, 102);
+    background-image: url(fem_background_sm.jpg);
+    /*Using the tiling default, I don't need the "repeat" value*/
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 102);
 }
-
-
 body {
-	background-color: rgb(255, 255, 255);  
-	box-shadow: rgb(196, 38, 253) 5px 0px 15px,
-                rgb(196, 38, 253) -5px 0px 15px;
-	margin-left: auto;
-	margin-right: auto;	
-	max-width: 960px;
-	min-width: 960px;
-	width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(196, 38, 253) 5px 0px 15px, rgb(196, 38, 253) -5px 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 960px;
+    width: 100%;
 }
 /* I know how to code it (?) but can't get it to work properly
 body {
@@ -49,113 +45,98 @@ body {
 /* Body Header Styles */
 
 body header img {
-	display: block;
-	width: 100%;
-	padding: 0px;
+    display: block;
+    width: 100%;
+    padding: 0px;
 }
-
 body header nav.horizontalNav {
-	width: 100%;
-	float: left;
-	
+    width: 100%;
+    float: left;
 }
-
 body header nav.horizontalNav li {
-	width: 25%;
+    width: 25%;
 }
-
-
-
 /* Figure Box Styles */
 
 figure figcaption {
-	display: block;
-	text-align: center;
-	background-color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	padding: 10px 0;
+    display: block;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px 0;
 }
-
 /* Heading Styles */
 
 h1 {
-	padding: 0px;
-	text-align: center;
-	color: rgb(0, 0, 102);
-	font-size: 1.8em;
-	line-height: 2.0em;
-	text-align: center;
-	font-weight: bold;
+    padding: 0px;
+    text-align: center;
+    color: rgb(0, 0, 102);
+    font-size: 1.8em;
+    line-height: 2.0em;
+    text-align: center;
+    font-weight: bold;
 }
-
 /* Article Styles */
 
 article {
-	overflow: visible;
+    overflow: visible;
 }
-
 article#fems {
-	position: relative;
-	height: 625px;
-	width: 100%;
+    position: relative;
+    height: 625px;
+    width: 100%;
 }
-
 /* First Fem */
 
 div#star1 {
-	display: block;
-	position: absolute;
-	top: 1px;
-	left: 350px;
-	transform: perspective(250px) rotateX(10deg);
-	box-shadow: rgb(227, 248, 254) 0px -10px 20px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 350px;
+    transform: perspective(250px) rotateX(10deg);
+    box-shadow: rgb(227, 248, 254) 0px -10px 20px;
 }
-
 /* Second Fem */
 
 div#star2 {
-	display: block;
-	position: absolute;
-	top: 220px;
-	left: 15%;
-	opacity: 0.85;
-	transform: rotate(-20deg) translate(-20px, -100px);
-	box-shadow: rgb(227, 248, 254) -10px -10px 20px;
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 15%;
+    opacity: 0.85;
+    transform: rotate(-20deg) translate(-20px, -100px);
+    box-shadow: rgb(227, 248, 254) -10px -10px 20px;
 }
-
 /* Third Fem */
 
 div#star3 {
-	display: block;
-	position: absolute;
-	top: 220px;
-	left: 55%;
-	opacity: 0.85;
-	transform: rotate(20deg) translate(20px, -100px);
-	box-shadow: rgb(227, 248, 254) 10px -10px 20px;
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 55%;
+    opacity: 0.85;
+    transform: rotate(20deg) translate(20px, -100px);
+    box-shadow: rgb(227, 248, 254) 10px -10px 20px;
 }
-
 div#star4 {
-	display: block;
-	position: absolute;
-	top: 300px;
-	left: 350px;
-	transform: perspective(250px) rotateX(10deg);
-	box-shadow: rgb(227, 248, 254) 0px 10px 20px;
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    transform: perspective(250px) rotateX(10deg);
+    box-shadow: rgb(227, 248, 254) 0px 10px 20px;
 }
-	
-
 /* Section Styles*/
 
 section {
-	border: 5px;
-	background-color: rgb(227, 248, 254);
-	font-size: 0.9em;
-	color: rgb(0, 0, 102);
-	clear: left;
-	height: 490px;
-	padding: 5px;
+    border: 5px;
+    background-color: rgb(227, 248, 254);
+    font-size: 0.9em;
+    color: rgb(0, 0, 102);
+    clear: left;
+    height: 490px;
+    padding: 5px;
 }
 /*
 section ul {
@@ -164,18 +145,15 @@ section ul {
 */
 
 section h2 {
-	text-align: center;
-	padding: 0px;
-	text-align: center;
-	color: rgb(0, 0, 102);
-	font-size: 1.5em;
-	line-height: 1.0em;
-	text-align: center;
-	font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    text-align: center;
+    color: rgb(0, 0, 102);
+    font-size: 1.5em;
+    line-height: 1.0em;
+    text-align: center;
+    font-weight: bold;
 }
-
 section dt dd {
-	font-weight: bold;
+    font-weight: bold;
 }
-
-

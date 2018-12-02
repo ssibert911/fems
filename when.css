@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /*
       OC CIS 155 Web Development I
       Build on Concepts Project #3(indicate which project this is for)
@@ -18,118 +17,91 @@
 
 /* Background image created by Sandra Sibert from public domian photos */
 
-
 /* Body Styles */
-body {	
-	height: 2000px;
-}
 
+body {
+    height: 2000px;
+}
 /* article styles */
 
 article {
-	display: block;
-	width: 66%;
-	float: left;
-	padding: 0px 10px 20px 10px;
-	
+    display: block;
+    width: 66%;
+    float: left;
+    padding: 0px 10px 20px 10px;
 }
-
 /*Row Style - Quotes */
 
-
 div.row {
-	display: block;
+    display: block;
 }
-
 div.row {
-  display: -webkit-inline-flex;
-  display: inline-flex;
-  height: 200px;
-  width: 100%;
-  align-items: center;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
 }
-
 div.column1 {
-	flex-basis: 33%;
+    flex-basis: 33%;
 }
-
 div.column2 {
-	flex-basis: 33%;
+    flex-basis: 33%;
 }
-
 div.column3 {
-	flex-basis: 33%;
+    flex-basis: 33%;
 }
-
-
 /*Table Styles*/
 
 table.events {
-	background: white;
-	border: 10px outset rgb(196, 38, 253);
-	border-collapse: collapse;
-	font-size: 0.90em;
-	width: 100%
+    background: white;
+    border: 10px outset rgb(196, 38, 253);
+    border-collapse: collapse;
+    font-size: 0.90em;
+    width: 100%
 }
-
 table.events th, table.events td {
-	border: 3px solid rgb(238,230,238);
-	padding: 5px;
-	vertical-align: top;
-	
+    border: 3px solid rgb(238, 230, 238);
+    padding: 5px;
+    vertical-align: top;
 }
-
 table.events caption {
-	caption-side: bottom;
-	text-align: right;
-	font-size: 1.0em;
-	font-weight: bold;
+    caption-side: bottom;
+    text-align: right;
+    font-size: 1.0em;
+    font-weight: bold;
 }
-
 table.events thead {
-	background: rgb(178, 121, 178);
-	color: white;
-	}
-	
+    background: rgb(178, 121, 178);
+    color: white;
+}
 table.events thead tr {
-	height: 40px;
+    height: 40px;
 }
-
 table.events tbody tr {
-	height: 50px;
+    height: 50px;
 }
-	
 table.events tfoot {
-	background: rgb(178, 121, 178);
-	color: white;
+    background: rgb(178, 121, 178);
+    color: white;
 }
-
 table.events thead {
-	background: rgba(178, 121, 178, 0.3);
+    background: rgba(178, 121, 178, 0.3);
 }
-
 table.events tfoot {
-	background: rgb(178, 121, 178);
-	color: white;
-	font-size: 0.9em;
-	text-align: center;
+    background: rgb(178, 121, 178);
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
 }
-
-	
-
 col#firstCol {
-	background: rgba(178, 121, 178, 0.6);
-	width: 15%;
-	}
-
-col.dateCol {
-	background: rgba(178, 121, 178, 0.3);
-	width: 15%;
+    background: rgba(178, 121, 178, 0.6);
+    width: 15%;
 }
-
-
-	
-	
+col.dateCol {
+    background: rgba(178, 121, 178, 0.3);
+    width: 15%;
+}
 /*
 
 div.column {
