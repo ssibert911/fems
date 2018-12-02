@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-	<head>
-		<meta charset="utf-8" />
-		<meta name="keywords" content="Feminism, Feminist, suffragette, women, girls, femininity" />
-		<meta name="description" content="Feminism - The 4 W's is a classroom assignment done for Web Development CIS155."  />
-		<meta name="author" content="Sandra Sibert" />
-   
-   
-		<title>Feminism - Historical "When's"</title>
-   
-   <!--
+<head>
+    <meta charset="utf-8">
+    <meta content="Feminism, Feminist, suffragette, women, girls, femininity" name="keywords">
+    <meta content="Feminism - The 4 W's is a classroom assignment done for Web Development CIS155." name="description">
+    <meta content="Sandra Sibert" name="author">
+    <title>Feminism - Historical "When's"</title><!--
       OC CIS 155 Web Development I
       Build on Concepts Project #2(indicate which project this is for)
       
@@ -21,229 +16,194 @@
       Supporting files: fem_logo2.jpg, what.html, contact.html, Star-Ginsberg.gif, Star-Sanger.gif, Star-Steinem.gif, Star-Trudeau.gif
 
    -->
-		<link href="f_styles.css" rel="stylesheet" />
-		<link href="fem_forms.css" rel="stylesheet" />	
-		<link href="when.css" rel="stylesheet" />
-		<script src="rb_formsubmit.js"></script>
+    <link href="f_styles.css" rel="stylesheet">
+    <link href="fem_forms.css" rel="stylesheet">
+    <link href="when.css" rel="stylesheet">
+    <script src="rb_formsubmit.js">
+    </script><!--Embedded Style for gradient footer and elongation transformations did not work embedded in html
+        <style>
+            body footer {
+            background-image: linear-gradient(to right bottom, rgb(230, 165, 243), rgb(227, 248, 254), rgb(230, 165, 243));
+        }
+      
+            div#star1 {
+            transform: perspective(250px) rotateX(10deg);
+        }
 
-   <!--Embedded Style for gradient footer and elongation transformations did not work embedded in html
-		<style>
-			body footer {
-			background-image: linear-gradient(to right bottom, rgb(230, 165, 243), rgb(227, 248, 254), rgb(230, 165, 243));
-		}
-	  
-			div#star1 {
-			transform: perspective(250px) rotateX(10deg);
-		}
-
-		</style>
--->	
-
-	</head>
-   
-<!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
+        </style>
+-->
+</head><!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
 <body>
-
-	<header>
-		<a href="home.html"><img src="fem_logo2.jpg" alt="Feminism - The 4 W's" /></a> <!-- Image created by Sandra Sibert -->
-	  
-		<nav class="horizontalNav">
-			<ul>
-				<li><a href="fem_home.html">Why?</a></li>
-				<li><a href="who.html">Who?</a></li>
-				<li><a href="when.html">When?</a></li>
-				<li><a href="contact.html">Contact Me</a></li>
-			</ul>
-		</nav>
-	</header>
-   
-   <!-- See col_styles for css -->
-   
-	<section>
-	
-		<h1> Historical Events in Feminists</h1>
-		
-		<article>
-			<h2>A Brief History</h2>
-			<div class="history">
-			The history of feminism comprises the narratives (chronological or thematic) of the movements and ideologies which have aimed at equal rights for women. While feminists around the world have differed in causes, goals, and intentions depending on time, culture, and country, most Western feminist historians assert that all movements that work to obtain women's rights should be considered feminist movements, even when they did not (or do not) apply the term to themselves. Some other historians limit the term "feminist" to the modern feminist movement and its progeny, and use the label "protofeminist" to describe earlier movements.<br />
-
-			Modern Western feminist history is conventionally split into three time periods, or "waves", each with slightly different aims based on prior progress:<br />
-
-			First-wave feminism of the 19th and early 20th centuries focused on overturning legal inequalities, particularly addressing issues of women's suffrage.<br />
-
-			Second-wave feminism (1960s–1980s) broadened debate to include cultural inequalities, gender norms, and the role of women in society.<br />
-
-			Third-wave feminism (1990s–2000s) refers to diverse strains of feminist activity, seen both as a continuation of the second wave and as a response to its perceived failures.<br />
-
-			Although the "waves" construct has been commonly used to describe the history of feminism, the concept has also been criticized for ignoring and erasing the history between the "waves", by choosing to focus solely on a few famous figures and on popular events.<br />
-			</div>
-		</article>
-		
-		<aside class="form">	
-		
-		<!-- See fem_forms for css -->
-		
-		<h2> Feminism Survey</h2>
-	
-		<form id="feminism" action="http://www.example.com/feminism/survey" method="post">
-			<fieldset id="surveyInfo">
-				<div class="formRow">
-					<label for="name">Name*</label>
-					<input name="surveyName" id="name" type="text" placeholder="first name only" required />
-				</div>
-			</fieldset>
-			
-				<div class="formRow">
-					<label>Are you male or female?</label>
-					<fieldset class="femGroup">
-					<label for="male">Male</label>
-					<input name="sSex" id="male" value="male" type="radio" />
-					<label for="female">Female</label>
-					<input name="sSex" id="female" value="female" type="radio" />
-					</fieldset>
-				</div>
-
-				<div class="formRow">
-					<label for="age">What is your age group?</label>
-					<fieldset class="femGroup">
-						<select name="ageGroup" id="age">
-						<option value="option1">10-20</option>
-						<option value="option2">20-30</option>
-						<option value="option3">30-40</option>
-						<option value="option4">40-50</option>
-						<option value="option5">Over 50</option>
-						<option value="option5">Prefer not to answer</option>
-						</select>
-					</fieldset>
-				</div>
-
-
-				<div class="formRow">
-					<label for="support">Do you support feminism?</label>
-					<fieldset class="femGroup">
-					<select name="supportType" id="support">
-					<option value="option1" selected>Yes</option>
-					<option value="option2">No</option>
-					<option value="option3">Not sure</option>
-					</select>
-					</fieldset>
-				</div>
-
-				<div id="buttons">
-					<input type="submit" value="Submit My Survey" />
-					<input type="reset" value="Cancel" />
-				</div>
-
-		</form>
-		
-		</aside>
-		<!-- See Row Style - Quotes in when.css -->
-		
-		<section id="quotes">
-			<div class="row">
-				<div class="column1">
-					<img src="quote2.jpg" alt="Michelle Obama quote">
-				</div>
-				<div class="column2">
-					<img src="quote1.jpg" alt="Ruth Bader Ginsburg quote">
-				</div>
-				<div class="column3">
-					<img src="quote3.jpg" alt="Gloria Steinem quote">
-				</div>
-			</div>
-		
-		</section>
-		
-		
-		<section id="table">
-		<h2>Important Dates In Feminism History</h2>
-		
-		<!-- See able Styles in when.css -->
-		<!-- w3.org validator is giving me the error: "A table row was 3 columns wide and exceeded the column count established using column markup (2)". I can't find any unclosed td's th's or tr's -->
-		
-		<table class="events">
-			<caption>The History of Feminism Has Only Started</caption>
-			
-			<colgroup>
-				<col id="firstCol" />
-				<col class="dateCol" />
-				<col class="dateSig" />
-			</colgroup>
-			
-			<thead>			
-				<tr>
-					<th>Date</th>
-					<th>Event</th>
-					<th>Significance</th>
-				</tr>
-			</thead>
-			
-			<tbody>	
-				<tr>
-					<th>June 20, 1946</th>
-					<td>Seneca Falls Convention</td>
-					<td>About 300 people, including 40 men, meet at America's first women's rights convention in Seneca Falls, New York. There they adopt a Declaration of Sentiments, modeled closely after the Declaration of Independence, asserting the "self-evident" truth that "all men and women were created equal." The delegates also adopt eleven resolutions, including one declaring it "the duty of women of this country to secure to themselves their sacred right to the elective franchise."</td>
-				</tr>
-				
-				<tr>
-					<th>July 9, 1868</th>
-					<td>14th Amendment</td>
-					<td>The 14th Amendment to the United States Constitution is ratified, explicitly protecting the voting rights of only the "male inhabitants" of the United States. This marks the first instance in which the Constitution clearly links citizenship and voting rights to gender.</td>
-				</tr>
-				
-				<tr>
-					<th>Feb 3, 1870</th>
-					<td>15th Amendment</td>
-					<td>The 15th Amendment to the United States Constitution is ratified, stating that "the right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude." </td>
-				</tr>
-				
-				<tr>
-					<th>June 4, 1919</th>
-					<td>19th Amendment Passes Congress</td>
-					<td>The United States Senate passes the 19th Amendment. Having already passed in the House of Representatives (May 21st, 1919), the amendment is sent to the states for ratification. (Amendment ratified Aug 20, 1920)</td>
-				</tr>
-				
-				<tr>
-					<th>1963</th>
-					<td>The Feminine Mystique</td>
-					<td>Betty Friedan publishes The Feminine Mystique exploring the "nameless, aching dissatisfaction" plaguing middle-class women and, according to many, launching the modern Women's Rights Movement.</td>
-				</tr>
-				
-				<tr>
-					<th>Jun 23, 1972</th>
-					<td>Title IX</td>
-					<td>The United States Congress enacts a series of Educational Amendments including Title IX, which states that "no person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance." </td>
-				</tr>
-				
-				<tr>
-					<th>Jun 30, 1982</th>
-					<td>ERA Fails to Gain Ratification</td>
-					<td>The deadline for ratification of the Equal Rights Amendment passes with only 35 of the needed 38 states approving the amendment. Opposition to the amendment is strongest in the South and Southwest.</td>
-				</tr>
-				</tbody>
-				
-				<tfoot>
-				<tr>
-					<td colspan="3">
-					Shmoop Editorial Team, "Women's Movements Timeline of Important Dates,"
-					<br />Shmoop University, Inc., Last modified November 11, 2008.
-					<br /><a href="https://www.shmoop.com/womens-movements/timeline.html">
-					https://www.shmoop.com/womens-movements/timeline.html</a></td>
-				</tr>
-				</tfoot>
-				
-			</table>
-		</section>
-	
-		<footer>
-			For more information on these and other feminists, <a href="https://www.thefamouspeople.com/feminist.php">visit here.</a>
-		</footer>
-	
-	</section>
-	
-	
-
-	
+    <header>
+        <a href="home.html"><img alt="Feminism - The 4 W's" src="fem_logo2.jpg"></a> <!-- Image created by Sandra Sibert -->
+        <nav class="horizontalNav">
+            <ul>
+                <li>
+                    <a href="fem_home.html">Why?</a>
+                </li>
+                <li>
+                    <a href="who.html">Who?</a>
+                </li>
+                <li>
+                    <a href="when.html">When?</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header><!-- See col_styles for css -->
+    <section>
+        <h1>Historical Events in Feminists</h1>
+        <article>
+            <h2>A Brief History</h2>
+            <div class="history">
+                The history of feminism comprises the narratives (chronological or thematic) of the movements and ideologies which have aimed at equal rights for women. While feminists around the world have differed in causes, goals, and intentions depending on time, culture, and country, most Western feminist historians assert that all movements that work to obtain women's rights should be considered feminist movements, even when they did not (or do not) apply the term to themselves. Some other historians limit the term "feminist" to the modern feminist movement and its progeny, and use the label "protofeminist" to describe earlier movements.<br>
+                Modern Western feminist history is conventionally split into three time periods, or "waves", each with slightly different aims based on prior progress:<br>
+                First-wave feminism of the 19th and early 20th centuries focused on overturning legal inequalities, particularly addressing issues of women's suffrage.<br>
+                Second-wave feminism (1960s–1980s) broadened debate to include cultural inequalities, gender norms, and the role of women in society.<br>
+                Third-wave feminism (1990s–2000s) refers to diverse strains of feminist activity, seen both as a continuation of the second wave and as a response to its perceived failures.<br>
+                Although the "waves" construct has been commonly used to describe the history of feminism, the concept has also been criticized for ignoring and erasing the history between the "waves", by choosing to focus solely on a few famous figures and on popular events.<br>
+            </div>
+        </article>
+        <aside class="form">
+            <!-- See fem_forms for css -->
+            <h2>Feminism Survey</h2>
+            <form action="http://www.example.com/feminism/survey" id="feminism" method="post" name="feminism">
+                <fieldset id="surveyInfo">
+                    <div class="formRow">
+                        <label for="name">Name*</label> <input id="name" name="surveyName" placeholder="first name only" required="" type="text">
+                    </div>
+                </fieldset>
+                <div class="formRow">
+                    <label>Are you male or female?</label>
+                    <fieldset class="femGroup">
+                        <label for="male">Male</label> <input id="male" name="sSex" type="radio" value="male"> <label for="female">Female</label> <input id="female" name="sSex" type="radio" value="female">
+                    </fieldset>
+                </div>
+                <div class="formRow">
+                    <label for="age">What is your age group?</label>
+                    <fieldset class="femGroup">
+                        <select id="age" name="ageGroup">
+                            <option value="option1">
+                                10-20
+                            </option>
+                            <option value="option2">
+                                20-30
+                            </option>
+                            <option value="option3">
+                                30-40
+                            </option>
+                            <option value="option4">
+                                40-50
+                            </option>
+                            <option value="option5">
+                                Over 50
+                            </option>
+                            <option value="option5">
+                                Prefer not to answer
+                            </option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="formRow">
+                    <label for="support">Do you support feminism?</label>
+                    <fieldset class="femGroup">
+                        <select id="support" name="supportType">
+                            <option selected value="option1">
+                                Yes
+                            </option>
+                            <option value="option2">
+                                No
+                            </option>
+                            <option value="option3">
+                                Not sure
+                            </option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div id="buttons">
+                    <input type="submit" value="Submit My Survey"> <input type="reset" value="Cancel">
+                </div>
+            </form>
+        </aside><!-- See Row Style - Quotes in when.css -->
+        <section id="quotes">
+            <div class="row">
+                <div class="column1"><img alt="Michelle Obama quote" src="quote2.jpg"></div>
+                <div class="column2"><img alt="Ruth Bader Ginsburg quote" src="quote1.jpg"></div>
+                <div class="column3"><img alt="Gloria Steinem quote" src="quote3.jpg"></div>
+            </div>
+        </section>
+        <section id="table">
+            <h2>Important Dates In Feminism History</h2><!-- See able Styles in when.css -->
+            <!-- w3.org validator is giving me the error: "A table row was 3 columns wide and exceeded the column count established using column markup (2)". I can't find any unclosed td's th's or tr's -->
+            <table class="events">
+                <caption>
+                    The History of Feminism Has Only Started
+                </caption>
+                <colgroup>
+                    <col id="firstCol">
+                    <col class="dateCol">
+                    <col class="dateSig">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                        <th>Significance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>June 20, 1946</th>
+                        <td>Seneca Falls Convention</td>
+                        <td>About 300 people, including 40 men, meet at America's first women's rights convention in Seneca Falls, New York. There they adopt a Declaration of Sentiments, modeled closely after the Declaration of Independence, asserting the "self-evident" truth that "all men and women were created equal." The delegates also adopt eleven resolutions, including one declaring it "the duty of women of this country to secure to themselves their sacred right to the elective franchise."</td>
+                    </tr>
+                    <tr>
+                        <th>July 9, 1868</th>
+                        <td>14th Amendment</td>
+                        <td>The 14th Amendment to the United States Constitution is ratified, explicitly protecting the voting rights of only the "male inhabitants" of the United States. This marks the first instance in which the Constitution clearly links citizenship and voting rights to gender.</td>
+                    </tr>
+                    <tr>
+                        <th>Feb 3, 1870</th>
+                        <td>15th Amendment</td>
+                        <td>The 15th Amendment to the United States Constitution is ratified, stating that "the right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude."</td>
+                    </tr>
+                    <tr>
+                        <th>June 4, 1919</th>
+                        <td>19th Amendment Passes Congress</td>
+                        <td>The United States Senate passes the 19th Amendment. Having already passed in the House of Representatives (May 21st, 1919), the amendment is sent to the states for ratification. (Amendment ratified Aug 20, 1920)</td>
+                    </tr>
+                    <tr>
+                        <th>1963</th>
+                        <td>The Feminine Mystique</td>
+                        <td>Betty Friedan publishes The Feminine Mystique exploring the "nameless, aching dissatisfaction" plaguing middle-class women and, according to many, launching the modern Women's Rights Movement.</td>
+                    </tr>
+                    <tr>
+                        <th>Jun 23, 1972</th>
+                        <td>Title IX</td>
+                        <td>The United States Congress enacts a series of Educational Amendments including Title IX, which states that "no person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance."</td>
+                    </tr>
+                    <tr>
+                        <th>Jun 30, 1982</th>
+                        <td>ERA Fails to Gain Ratification</td>
+                        <td>The deadline for ratification of the Equal Rights Amendment passes with only 35 of the needed 38 states approving the amendment. Opposition to the amendment is strongest in the South and Southwest.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Shmoop Editorial Team, "Women's Movements Timeline of Important Dates,"<br>
+                            Shmoop University, Inc., Last modified November 11, 2008.<br>
+                            <a href="https://www.shmoop.com/womens-movements/timeline.html">https://www.shmoop.com/womens-movements/timeline.html</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <footer>
+            For more information on these and other feminists, <a href="https://www.thefamouspeople.com/feminist.php">visit here.</a>
+        </footer>
+    </section>
 </body>
 </html>
