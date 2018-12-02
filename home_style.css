@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*
+      OC CIS 155 Web Development I
+      Build on Concepts Project #3(indicate which project this is for)
+      
+      Student Name: Sandra Sibert
+      Date:   Dec 1, 2018
+
+      Filename: home_style.css
+	  
+      Supporting files: who.html, when.html, contact.html, fem_home.html, fem_logo2.jpg, fem_background_sm.jpg, star-ginsberg.gif, star-sanger.gif, star-steinem.gif, star-trudeau.gif, youngest.jpg 
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+/* HTML and Body Styles */
+
+/* Background image created by Sandra Sibert from public domain photos */
+
+body {
+	height: 1215px;
+}
+
+section#main {
+	padding: 10px;
+}
+

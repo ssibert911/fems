@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/*
+      OC CIS 155 Web Development I
+      Build on Concepts Project #3(indicate which project this is for)
+      
+      Student Name: Sandra Sibert
+      Date:   Nov 12, 2018
+
+      Filename: fem_forms.css
+	  
+      Supporting files: who.html, when.html, contact.html, fem_home.html, fem_logo2.jpg, fem_background_sm.jpg, star-ginsberg.gif, star-sanger.gif, star-steinem.gif, star-trudeau.gif, youngest.jpg 
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+/* HTML and Body Styles */
+
+/* Background image created by Sandra Sibert from public domain photos */
+
+
+/* Form Layout Styles */
+
+aside.form {	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	border-color: rgb(230, 165, 243);
+}
+/*
+aside.form {	
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+*/
+
+/* h2 style */
+
+section h2 {
+	display: block;
+	width: 100%;
+	padding: 10;
+	margin: 0px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(230, 165, 243);
+	color: rgb(0, 0, 102);
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+aside.form > fieldset {
+	background-color: rgb(230, 165, 243);
+	border-radius: 20px;
+	-webkit-flex: 1 1 300px;
+	font-size: 0.85em;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap; 
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+
+
+
+/* Text Area Styles */
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+	font-weight: bold;
+}
+
+/* Form Button Styles */
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	font-size: 1.0em;
+	padding: 5px;
+	margin: 10px;
+	background-color: rgb(196, 38, 253);
+	color: white;
+}
+
+/* Validation Styles */
